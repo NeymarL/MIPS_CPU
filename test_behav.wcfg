@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject db_ref_id="1" fp_name="/test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/clear" type="logic">
+      <obj_property name="ElementShortName">clear</obj_property>
+      <obj_property name="ObjectShortName">clear</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/if_module/PC0" type="array">
+      <obj_property name="ElementShortName">PC0[31:1]</obj_property>
+      <obj_property name="ObjectShortName">PC0[31:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/IR1" type="array">
+      <obj_property name="ElementShortName">IR1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IR1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/query" type="logic">
+      <obj_property name="ElementShortName">query</obj_property>
+      <obj_property name="ObjectShortName">query</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/store" type="logic">
+      <obj_property name="ElementShortName">store</obj_property>
+      <obj_property name="ObjectShortName">store</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/pred_result" type="logic">
+      <obj_property name="ElementShortName">pred_result</obj_property>
+      <obj_property name="ObjectShortName">pred_result</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/predict_res" type="array">
+      <obj_property name="ElementShortName">predict_res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">predict_res[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/PC_update" type="array">
+      <obj_property name="ElementShortName">PC_update[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_update[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/Next_PC_asm" type="array">
+      <obj_property name="ElementShortName">Next_PC_asm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Next_PC_asm[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/success_num" type="array">
+      <obj_property name="ElementShortName">success_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">success_num[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/branch_num" type="array">
+      <obj_property name="ElementShortName">branch_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_num[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/PC1" type="array">
+      <obj_property name="ElementShortName">PC1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/PC2" type="array">
+      <obj_property name="ElementShortName">PC2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/PC3" type="array">
+      <obj_property name="ElementShortName">PC3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/asm/\Branch_Addr_reg[0]__0 " type="array">
+      <obj_property name="ElementShortName">\Branch_Addr_reg[0]__0 [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\Branch_Addr_reg[0]__0 [31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/id_module/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/asm/pred_result" type="logic">
+      <obj_property name="ElementShortName">pred_result</obj_property>
+      <obj_property name="ObjectShortName">pred_result</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/asm/store" type="logic">
+      <obj_property name="ElementShortName">store</obj_property>
+      <obj_property name="ObjectShortName">store</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/DUT/asm/query" type="logic">
+      <obj_property name="ElementShortName">query</obj_property>
+      <obj_property name="ObjectShortName">query</obj_property>
+   </wvobject>
+</wave_config>
