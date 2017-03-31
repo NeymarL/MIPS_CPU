@@ -9,4 +9,11 @@ This is a simple MIPS CPU written in Verilog and Logisim.
 * Branch prediction
 * Interrupt support(Logisim version)
 
+ScreenShots
+
+![logisim pipeline](Pipeline.png)
+Logisim Pipeline Data Path
+
+![Logisim int](Interrupt.png)
+Logisim Interrupt Version Data Path
 
